@@ -152,7 +152,6 @@ class App extends React.Component {
 
       if (this.throwError("Maximum progress value not set yet")) return;
     }
-    // console.log(<Header />);
   }
   getMaxProgressValue() {
     if (this.state.maxProgressValue === "x") return <b>Not set yet</b>;
