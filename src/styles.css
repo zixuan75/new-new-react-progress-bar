@@ -1,0 +1,125 @@
+#root {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.progress-button {
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-shadow: 7px 120px 90px darkblue;
+  width: 50px;
+  height: 50px;
+}
+.progress-button:focus {
+  border: 5px solid lightblue;
+}
+#progress-bar {
+  border: 5px solid olivedrab;
+  background-color: lightgreen;
+}
+.progress-bar-form {
+  width: 379px;
+  height: 120px;
+  border: 5px solid darkolivegreen;
+  background-color: lightgrey;
+  color: darkblue;
+}
+#popup {
+  display: none;
+  background-color: lightblue;
+  padding: 10px;
+  color: black;
+  border: 10px ridge darkblue;
+}
+#max-progress-2 {
+  margin-top: 3px;
+}
+.progress-value {
+  padding-left: 5px;
+}
+.normal-button {
+  background-color: darkblue;
+  color: white;
+}
+.cancel-button {
+  width: 389px;
+  margin: 0px 0px 0px 0px;
+  background-color: blue;
+  color: white;
+  border: 0px solid;
+  border-bottom: 2px solid darkblue;
+}
+.border-div {
+  width: 384px;
+  float: left;
+}
+.change-settings {
+  height: 151px;
+  border: 5px solid darkolivegreen;
+}
+#progress-form {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 120px;
+  border-left: 5px solid salmon;
+  border-bottom: 5px solid salmon;
+  border-top: 5px solid salmon;
+  border-radius: 20px 0px 0px 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: gray;
+  color: white;
+  transition: ease-in-out 750ms;
+}
+
+b {
+  color: darkred;
+}
+#progress-form:hover {
+  background-color: olivedrab;
+  margin-left: 20px;
+  padding-left: 120px;
+}
+
+#max-progress {
+  border: 2px solid brown;
+  background-color: lightblue;
+}
+#max-progress:focus {
+  border: 5px dashed red;
+  background-color: lightgreen;
+}
+#enter-button {
+  background-color: darkblue;
+  color: white;
+  border: 3px solid brown;
+}
+#enter-button:focus {
+  border: 5px solid brown;
+}
+
+.max-progress-value {
+  border: 5px solid red;
+  color: darkred;
+}
+.max-progress-value:hover {
+  border: 5px solid darkred;
+}
+.percentage-bar-red {
+  color: red;
+}
+.percentage-bar-orange {
+  color: orange;
+}
+.percentage-bar-yellow {
+  color: yellow;
+}
+.percentage-bar-green {
+  color: green;
+}
